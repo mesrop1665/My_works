@@ -1,9 +1,13 @@
-m  = 122
+m  = 'ptyrty'
 r = 0
-if type(m) != int:
-    print(type(m))
 
-else:
-    for i in range(len(str(m))):
-        r += int(str(m)[i])
-    print(r)
+def summa(g):
+    if type(g) != int:
+        print(TypeError)
+
+    else:
+        for i in range(len(str(g))):
+            r += int(str(m)[i])
+            print(r)
+
+summa(m)
