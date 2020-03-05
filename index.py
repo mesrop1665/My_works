@@ -1,5 +1,9 @@
-import keyboard
+def square_digits(num):
+    r = ""
+    for i in range(len(str(num))):
+        i = str(num)[i]
+        r += str(int(i)*int(i))
+    
+    return int(r)
 
-keyboard.press_and_release('shift+s, space')
-
-keyboard.write('dir')
+square_digits(1222)
